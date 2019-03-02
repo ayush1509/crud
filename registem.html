@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Register Form</title>
+	
+</head>
+<body>
+<form action="insert.php" method="POST">
+	<table>
+		<tr>
+			<td>
+				ID :
+			</td>
+			<td>
+				<input type="number" placeholder="Number" name="id" required >
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FirstName :
+			</td>
+			<td>
+				<input type="text" placeholder="FirstName" name="firstname" required>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				LastName :
+			</td>
+			<td>
+				<input type="text" placeholder="LastName" name="lastname" required>
+			</td>
+		</tr>
+		<tr>
+		<tr>
+			<td>
+				Email :
+			</td>
+			<td>
+				<input type="mail" placeholder="Email" name="email" required>
+			</td>
+		</tr>
+			<td>
+				Password :
+			</td>
+			<td>
+				<input type="Password" placeholder="password" name="password" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Address :
+			</td>
+			<td>
+				<input type="text" placeholder="Address" name="address" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Gender :
+			</td>
+			<td>
+				<input type="radio" name="gender" value="m" checked required>Male
+				<input type="radio" name="gender" value="f" required>FeMale
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				Phone no :
+			</td>
+			<td>
+				<select>
+					<option>+91</option>
+				</select>
+				<input type="Phone" placeholder="phone number" name="phoneno" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				City :
+			</td>
+			<td>
+				<select name="city" required>
+					<option selected hidden value="">Select City</option>
+					<option>Meerut</option>
+					<option>Delhi</option>
+					<option>Ghaziabad</option>
+					<option>Mumbai</option
+				</select>
+			</td>
+		</tr>
+		<tr>
+		<td>
+			<input type="Submit" value="Submit">
+		</td>
+		</tr>
+		
+	</table>
+</form>
+</body>
+</html>
